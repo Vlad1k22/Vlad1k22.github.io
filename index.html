@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Vladislav Lyudkevich</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            color: #fff;
+            background-color: #121212;
+        }
+
+        .home {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .home .container {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        h1 span {
+            color: #ccc;
+            display: block;
+            font-size: 3rem; 
+        }
+
+        .buttons {
+            margin: 20px 0;
+        }
+
+        .btn, .btn-outline {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px; 
+            text-decoration: none;
+            border-radius: 5px;
+            width: 200px; 
+            text-align: center;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn {
+            background-color: #fff;
+            color: #121212;
+            border: none;
+        }
+
+        .btn-outline {
+            border: 2px solid #fff;
+            color: #fff;
+            background-color: transparent;
+        }
+
+        /* Эффекты для кнопок */
+        .btn:hover, .btn-outline:hover {
+            background-color: #ccc;
+            color: #121212;
+        }
+
+        .social-links a {
+            color: #ccc;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        /* Разделение фона на два блока */
+        .home .background-container {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .home .background-left {
+            width: 50%;
+            background: url('stol.jpg') no-repeat center center/cover;
+            opacity: 0.4;
+        }
+
+        .home .background-right {
+            width: 50%;
+            background: url('norm.jpg') no-repeat center center/cover; 
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <section class="home" id="home">
+        <div class="container">
+            <div class="content">
+                <h1>Vladislav<span>Lyudkevich</span></h1>
+                <div class="buttons">
+                    <a href="sayt2.html" class="btn">About Me</a>
+                    <a href="sayt3.html" class="btn-outline">My family</a>
+                </div>
+                <div class="buttons">
+                    <a href="sayt4.html" class="btn-outline">My city</a>
+                    <a href="sayt5.html" class="btn">My hobbies</a>
+                </div>
+            </div>
+        </div>
+        <div class="background-container">
+            <div class="background-left"></div>
+            <div class="background-right"></div>
+        </div>
+    </section>
+</body>
+</html>
