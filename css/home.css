@@ -1,0 +1,35 @@
+/* Стили только для главной страницы */
+.home {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.home .background-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home .background-left {
+    width: 50%;
+    background: url('../images/stol.jpg') no-repeat center center/cover;
+    opacity: 0.4;
+}
+
+.home .background-right {
+    width: 50%;
+    background: url('../images/norm.jpg') no-repeat center center/cover;
+    opacity: 0.4;
+}
