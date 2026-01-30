@@ -55,3 +55,15 @@ h1 span {
     background-color: #ccc;
     color: #121212;
 }
+/* Добавьте эти свойства к существующим: */
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;    /* ← ДОБАВЬТЕ */
+    margin: 20px 0;        /* ← ДОБАВЬТЕ */
+}
+
+.buttons {
+    margin: 20px 0;
+    text-align: center;    /* ← ДОБАВЬТЕ */
+}
