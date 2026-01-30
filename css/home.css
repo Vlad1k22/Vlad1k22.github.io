@@ -1,4 +1,5 @@
-/* Стили только для главной страницы */
+/* home.css - стили ТОЛЬКО для главной страницы (index.html) */
+
 .home {
     position: relative;
     height: 100vh;
@@ -10,7 +11,7 @@
 .home .container {
     position: relative;
     z-index: 2;
-    text-align: center;
+    text-align: center;  /* ← Центрирование ТОЛЬКО на главной */
 }
 
 .home .background-container {
@@ -32,4 +33,14 @@
     width: 50%;
     background: url('../images/norm.jpg') no-repeat center center/cover;
     opacity: 0.4;
+}
+
+/* ДОБАВЬТЕ ЭТО: центрирование для главной */
+.home h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home .buttons {
+    text-align: center;
 }
