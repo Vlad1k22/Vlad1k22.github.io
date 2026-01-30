@@ -1,4 +1,4 @@
-/* Общие стили */
+/* style.css - ОБЩИЕ стили для ВСЕХ страниц */
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +12,7 @@ body {
     background-color: #121212;
 }
 
+/* ОБЩИЕ стили для h1 (без text-align!) */
 h1 {
     font-size: 3.5rem;
     font-weight: bold;
